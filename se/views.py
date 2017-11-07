@@ -7,8 +7,6 @@ def home(request):
 
 	context = locals()
 	template = "se/home.html"
-	html_ = "d f"
-	html_va = "<b>jjn knjjkk <b>"
 	return render(request, template ,context)
 
 def detail(request, question_id=0):
