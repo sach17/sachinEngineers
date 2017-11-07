@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
+    <link rel="icon" href="{% static 'se/images/logo/favicon.ico' %}">
 
     <title>Jumbotron Template for Bootstrap</title>
 
@@ -16,6 +16,7 @@
 
     <!-- Custom styles for this template -->
     <link href="{% static 'se/css/carousel.css' %}" rel="stylesheet">
+    <link href="{% static 'se/css/style.css' %}" rel="stylesheet">
   </head>
 
   <body>
@@ -23,7 +24,7 @@
     <main role="main">
     {% block content %}
     {% endblock %}
-      <div class="container">
+      <!-- <div class="container">
         <div class="row">
           <div class="col-md-4">
             <h2>Heading</h2>
@@ -44,7 +45,7 @@
 
         <hr>
 
-      </div> <!-- /container -->
+      </div> <!-- /container --> 
 
     </main>
 
